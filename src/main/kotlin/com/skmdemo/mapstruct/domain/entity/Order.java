@@ -1,4 +1,4 @@
-package com.veinhorn.mapstruct.domain.entity;
+package com.skmdemo.mapstruct.domain.entity;
 
 public class Order {
     private int id;

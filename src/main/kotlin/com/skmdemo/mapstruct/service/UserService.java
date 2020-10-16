@@ -1,9 +1,10 @@
-package com.veinhorn.mapstruct.service;
+package com.skmdemo.mapstruct.service;
 
-import com.veinhorn.mapstruct.domain.dto.UserDto;
-import com.veinhorn.mapstruct.domain.entity.Order;
-import com.veinhorn.mapstruct.domain.entity.User;
-import com.veinhorn.mapstruct.domain.mapper.UserMapper;
+
+import com.skmdemo.mapstruct.domain.dto.UserDto;
+import com.skmdemo.mapstruct.domain.entity.Order;
+import com.skmdemo.mapstruct.domain.entity.User;
+import com.skmdemo.mapstruct.domain.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +13,7 @@ import java.util.List;
 
 @Service
 public class UserService {
+
     @Autowired
     private UserMapper mapper;
 

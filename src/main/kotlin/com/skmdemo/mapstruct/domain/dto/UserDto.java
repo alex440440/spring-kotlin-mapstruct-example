@@ -1,6 +1,6 @@
-package com.veinhorn.mapstruct.domain.dto;
+package com.skmdemo.mapstruct.domain.dto;
 
-import com.veinhorn.mapstruct.domain.entity.Order;
+import com.skmdemo.mapstruct.domain.entity.Order;
 
 import java.util.List;
 

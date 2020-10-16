@@ -1,4 +1,4 @@
-package com.veinhorn.mapstruct.domain.dto;
+package com.skmdemo.mapstruct.domain.dto;
 
 public class OrderDto {
     private int id;
